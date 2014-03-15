@@ -1,0 +1,13 @@
+#temp created files
+*~
+.swp*
+
+# object files
+*.o
+
+# ignore everything in CMake except CMakeLists
+CMake/*
+!CMake/CMakeLists.txt
+
+# executable
+gameoflife
