@@ -7,26 +7,25 @@ Implementation of the [John Conway](https://en.wikipedia.org/wiki/John_Horton_Co
 ## Installation
 ```
 git clone https://github.com/chibby0ne/gameoflife
-```
-
-```
 cd Game_of_Life/CMake
 cmake .
 make
 ```
 
 ## Usage
-` cd bin/`
-`./gameoflife [OPTIONS] [arguments]`
+```
+cd bin/
+./gameoflife [OPTIONS] [arguments]...
+```
 
 ### Options
 
 The available options are:
-* `-w _value_` Sets width of the terminal to be used the simulation (default: width of terminal window)
-* "-h _value_` Sets height of the terminal to be used the simulation (default: height of terminal window)
-* `-r _value_` Sets refresh time of the terminal in useconds (default: 0.2 sec) (time between generations of cells)
-* `-p _value_`  Sets initial probability of living cell in percentage (default: 10)
-* `-h`           Shows help 
+* `-w` _value_ Sets width of the terminal to be used the simulation (default: width of terminal window)
+* "-h` _value_ Sets height of the terminal to be used the simulation (default: height of terminal window)
+* `-r` _value_ Sets refresh time of the terminal in useconds (default: 0.2 sec) (time between generations of cells)
+* `-p` _value_ Sets initial probability of living cell in percentage (default: 10)
+* `-h`         Shows help 
 
 
 ## Implementation
