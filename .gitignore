@@ -1,6 +1,6 @@
 #temp created files
 *~
-.swp*
+*.swp
 
 # object files
 *.o
